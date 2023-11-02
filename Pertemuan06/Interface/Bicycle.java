@@ -1,6 +1,6 @@
 package Interface;
 
-public class Bicycle implements Vehicle {
+class Bicycle implements Vehicle {
     int speed;
     int gear;
 

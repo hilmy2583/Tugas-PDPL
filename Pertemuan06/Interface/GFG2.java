@@ -1,6 +1,6 @@
 package Interface;
 
-public class GFG2 {
+class GFG2 {
     public static void main(String[] args){
 
         Bicycle bycl = new Bicycle();

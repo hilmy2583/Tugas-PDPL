@@ -1,7 +1,3 @@
-public class Overloading {
-    
-}
-
 class Helper {
     static int Multiply(int a, int b){
         return a * b;

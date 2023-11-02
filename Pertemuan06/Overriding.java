@@ -1,7 +1,3 @@
-public class Overriding {
-    
-}
-
 class Animal{
     void eat(){
         System.out.println("eating...");
