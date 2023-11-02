@@ -1,6 +1,6 @@
 package Pertemuan05;
 
-public class Bicycle {
+class Bicycle {
     public int gear;
     public int speed;
 

@@ -1,6 +1,6 @@
 package Pertemuan05;
 
-public class MountainBike extends Bicycle {
+class MountainBike extends Bicycle {
     public int seatHeight;
 
     public MountainBike(int gear, int speed, int startHeight){
