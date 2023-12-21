@@ -7,7 +7,7 @@ public class Persegi extends BangunDatar {
 
     public Persegi() {
         Scanner shape = new Scanner(System.in);
-        System.out.print("Masukkan Sisi dari Bangun Datar: ");
+        System.out.print("Masukkan Sisi Persegi: ");
         int sisi = shape.nextInt();        
         this.sisi = sisi;
         shape.close();

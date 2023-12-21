@@ -1,22 +1,22 @@
 package TugasAkhirKelompokPDPL.CobaBuilder;
 
 public abstract class BangunDatar {
-    protected int luas;
-    protected int keliling;
+    protected double luas;
+    protected double keliling;
 
-    public int getLuas() {
+    public double getLuas() {
         return luas;
     }
 
-    public void setLuas(int luas) {
+    public void setLuas(double luas) {
         this.luas = luas;
     }
 
-    public int getKeliling() {
+    public double getKeliling() {
         return keliling;
     }
 
-    public void setKeliling(int keliling) {
+    public void setKeliling(double keliling) {
         this.keliling = keliling;
     }
 

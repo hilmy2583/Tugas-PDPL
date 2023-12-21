@@ -3,12 +3,12 @@ package TugasAkhirKelompokPDPL.CobaBuilder;
 import java.util.Scanner;
 
 public class Lingkaran extends BangunDatar {
-    private int jari;
-    private int PI = 22 / 7;
+    private double jari;
+    private double PI = 3.14;
 
     public Lingkaran() {
         Scanner shape = new Scanner(System.in);
-        System.out.print("Masukkan Jari-Jari dari Bangun Datar: ");
+        System.out.print("Masukkan Jari-Jari Lingkaran: ");
         int jari = shape.nextInt();        
         this.jari = jari;
         shape.close();
